@@ -1,0 +1,87 @@
+body{
+margin:0;
+font-family:'Poppins',sans-serif;
+background:#000;
+color:#fff;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+border-bottom:1px solid #c9a24d;
+}
+
+.logo{
+font-family:'Playfair Display',serif;
+color:#c9a24d;
+font-size:26px;
+}
+
+.menu a{
+color:#c9a24d;
+margin-left:22px;
+text-decoration:none;
+font-weight:500;
+}
+
+.hero{
+text-align:center;
+padding:160px 20px;
+background:radial-gradient(circle at top,#1a1a1a,#000);
+}
+
+.hero h1{
+font-family:'Playfair Display',serif;
+color:#c9a24d;
+font-size:50px;
+}
+
+.cta{
+display:inline-block;
+margin-top:30px;
+padding:15px 38px;
+background:#c9a24d;
+color:#000;
+font-weight:600;
+border-radius:40px;
+text-decoration:none;
+}
+
+.box{
+max-width:1100px;
+margin:80px auto;
+padding:60px;
+border:1px solid #c9a24d;
+border-radius:18px;
+background:#0c0c0c;
+}
+
+.gold{
+background:linear-gradient(135deg,#c9a24d,#f0d98c);
+color:#000;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+text-align:center;
+font-weight:500;
+}
+
+.articles{
+line-height:2;
+}
+
+footer{
+text-align:center;
+padding:35px;
+color:#c9a24d;
+border-top:1px solid #222;
+}
+
+.contact{
+text-align:center;
+}
